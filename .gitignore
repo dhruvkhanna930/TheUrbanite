@@ -1,3 +1,13 @@
+#COMMAND -- npx gitignore python
+
+.vscode
+.idea
+.coverage*
+.DS_Store
+staticfiles
+mediafiles
+client/node_modules
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
